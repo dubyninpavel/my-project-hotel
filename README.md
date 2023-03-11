@@ -5,7 +5,7 @@ Web приложение для поисков отелей
 * [Проект: Hotels](https://github.com/dubyninpavel/my-project-hotel)
 
 ## Сайт проекта:
-* [Проект: Hotels](https://progecthotel.netlify.app)
+* [Проект: Hotels](https://myprogecthotel.netlify.app)
 
 ## Ссылка на макет Figma
 * [Figma](https://www.figma.com/file/PxI4ycD6GMGSpxOZ2NbFBO/React-Test%2FSimple-Hotel-Check-(Copy)?node-id=0%3A1)

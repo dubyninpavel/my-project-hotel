@@ -1,0 +1,13 @@
+.app {
+  background-color: rgba(244, 244, 244, 1);
+  font-family: 'Roboto', system-ui, sans-serif;
+  font-style: normal;
+  min-height: 100vh;
+  padding-bottom: 10px;
+  color: rgba(66, 66, 66, 1);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

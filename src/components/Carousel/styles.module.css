@@ -1,0 +1,16 @@
+.carousel {
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+
+
+.image {
+  /* width: 100%; */
+  /* max-width: 164px; */
+  width: 164px;
+  height: 149px;
+  /* max-height: 149px; */
+  border-radius: 10px;
+}

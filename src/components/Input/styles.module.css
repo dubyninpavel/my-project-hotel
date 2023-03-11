@@ -1,0 +1,50 @@
+.label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+}
+
+.label:first-child {
+  margin: 0 0 7px 0;
+}
+
+.authorization.errorLabel {
+  color: rgba(235, 23, 23, 1);
+
+}
+
+.authorization {
+  font-weight: 300;
+  color: rgba(66, 66, 66, 1);
+}
+
+.input {
+  height: 50px;
+  color: rgba(66, 66, 66, 1);
+  padding: 0 15px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(201, 202, 204, 1);
+  box-sizing: border-box;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.errorInput {
+  color: rgba(235, 23, 23, 1);
+}
+
+.error {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(235, 23, 23, 1);
+  margin: 7px 0 0 0;
+}

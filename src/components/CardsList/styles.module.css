@@ -1,0 +1,17 @@
+.cardsListContainer {
+  position: relative;
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.cardsListContainer::-webkit-scrollbar {
+  width: 2px;
+  background-color: rgba(231, 231, 231, 1);
+}
+
+.cardsListContainer::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background-color: rgba(65, 82, 46, 1);
+}

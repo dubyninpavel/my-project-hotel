@@ -1,0 +1,59 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 116px;
+  max-width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 15px 0;
+}
+
+.buttonError {
+  cursor: default;
+  opacity: .5;
+  pointer-events: none;
+}
+
+.contained {
+  background: linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.contained:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+}
+
+.contained:active {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+}
+
+.pure {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: 400;
+  height: 24px;
+  min-width: 83px;
+  color: #41522E;
+  padding: 0 2px;
+  background-color: inherit;
+}
+
+.pure:hover {
+  opacity: .5;
+}
+
+.pure:active {
+  opacity: 1;
+}
+
+.endIconContainer {
+  display: flex;
+  margin-left: 12px;
+}

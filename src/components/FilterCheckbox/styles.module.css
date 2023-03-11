@@ -1,0 +1,40 @@
+.filtercheckbox {
+  display: flex;
+  margin: 0;
+}
+
+.like {
+  width: 23px;
+  height: 20px;
+  color: rgb(255, 255, 255);
+  margin: 0 0 0 0;
+}
+
+.like:hover {
+  color: #EBEBEB;
+}
+
+.likeActive path {
+  color: #E55858;
+  stroke: #E55858;
+}
+
+.input {
+  position: absolute;
+  visibility: hidden;
+}
+
+.label {
+  align-self: center;
+  position: relative;
+  color: rgba(196, 196, 196, 1);
+  cursor: pointer;
+}
+.label:before, .label:after {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  content: '';
+}

@@ -1,0 +1,188 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F4F4F4;
+  padding: 32px 31px;
+}
+
+.headerTitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #424242;
+  margin: 0 0 0 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.containerInfo {
+  max-width: 360px;
+  width: 100%;
+  margin-right: 24px;
+}
+
+.containerForm {
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.formInput {
+  margin: 18px 0 7px 0;
+}
+
+.formButton {
+  margin-top: 32px;
+}
+
+.favourites {
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  padding: 32px;
+}
+
+.favouritesTitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #424242;
+  margin: 0 0 32px 0;
+}
+
+.favouritesFilter {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.cardListFavouriteHotels {
+  max-height: 360px;
+}
+
+.cardListFoundHotels {
+  max-height: 580px;
+}
+
+.errApi {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 38px;
+  color: #424242;
+  margin: 20px 0;
+}
+
+.containerHotels {
+  padding: 48px 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  max-width: 664px;
+  width: 100%;
+}
+
+.containerHotelsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.containerHotelsHeaderInfo {
+  display: flex;
+  align-items: center;
+}
+
+.containerHotelsTitle {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 0;
+  color: #424242;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.vectorIcon {
+  margin: 0 19px
+}
+
+.containerHotelsTitleDate{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #41522E;
+  margin: 0;
+}
+
+.countFavouritesTitle {
+  display: flex;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  color: #424242;
+  margin: 25px 0 12px 0;
+}
+
+.countFavouritesNumber {
+  font-weight: 500;
+  color: rgba(65, 82, 46, 1);
+  margin: 0 4px 0 8px;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerInfo {
+    display: flex;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: 0 0 20px 0;
+  }
+
+  .containerForm {
+    margin: 0 10px 0 0;
+  }
+
+  .favouritesTitle {
+    margin-bottom: 10px;
+  }
+
+  .cardListFavouriteHotels {
+    max-height: 264px;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerForm {
+    margin: 0 0 10px 0;
+  }
+
+  .containerHotelsHeader {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .containerHotelsTitleDate {
+    margin-top: 10px;
+  }
+}
